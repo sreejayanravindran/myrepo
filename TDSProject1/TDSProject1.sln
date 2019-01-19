@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDSProject1", "TDSProject1\TDSProject1.scproj", "{0D2854CE-2CFC-4B80-9056-426E0C9711C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "layoutitems", "layoutitems\layoutitems.csproj", "{B31393E0-74A0-47A4-8FB2-86D0E48E0115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D2854CE-2CFC-4B80-9056-426E0C9711C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2854CE-2CFC-4B80-9056-426E0C9711C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2854CE-2CFC-4B80-9056-426E0C9711C6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D2854CE-2CFC-4B80-9056-426E0C9711C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2854CE-2CFC-4B80-9056-426E0C9711C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2854CE-2CFC-4B80-9056-426E0C9711C6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B31393E0-74A0-47A4-8FB2-86D0E48E0115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31393E0-74A0-47A4-8FB2-86D0E48E0115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31393E0-74A0-47A4-8FB2-86D0E48E0115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31393E0-74A0-47A4-8FB2-86D0E48E0115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>0d2854ce-2cfc-4b80-9056-426e0c9711c6</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>TDSProject1</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyName>TDSProject1</AssemblyName>
+    <Name>TDSProject1</Name>
+    <RootNamespace>TDSProject1</RootNamespace>
+    <EnableCodeGeneration>False</EnableCodeGeneration>
+    <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
+    <ManageRoles>True</ManageRoles>
+    <AssemblyStatus>Include</AssemblyStatus>
+    <CodeGenTargetProject>layoutitems</CodeGenTargetProject>
+    <CodeGenFile>sreetest</CodeGenFile>
+    <BaseNamespace>layoutitems</BaseNamespace>
+    <EnableAssemblyValidation>False</EnableAssemblyValidation>
+    <EnablePackageValidation>False</EnablePackageValidation>
+    <BaseTransformFile />
+    <HeaderTransformFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\.debug\packages\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <SitecoreDeployFolder>C:\websites\sitecore81\Website</SitecoreDeployFolder>
+    <SitecoreWebUrl>http://sitecore81.local/</SitecoreWebUrl>
+    <SitecoreAccessGuid>3b35f16b-35e9-4c74-a7cb-fdf6dce8595d</SitecoreAccessGuid>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <PackageName>TDSsitecore81first</PackageName>
+    <PackageAuthor>sree</PackageAuthor>
+    <PackagePublisher />
+    <PackageVersion>1.0</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath>C:\websites\sitecore81\Website\bin</SitecoreAssemblyPath>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>True</PackageExcludeCode>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <LightningDeployMode>False</LightningDeployMode>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\TDSProject1_Debug.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\TDSProject1_Debug.xml</ValidationSettingsFilePath>
+    <SitecoreWebUrl>http://sitecore81.local/</SitecoreWebUrl>
+    <InstallSitecoreConnector>False</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <LightningDeployMode>False</LightningDeployMode>
+    <SitecoreDeployFolder>C:\sree\TDS\TDS81Local\TDSProject1\packages</SitecoreDeployFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\content.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\sree.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Layouts.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Layouts\sreelayout.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Sample.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Sample\TDSLocal.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Sample\TDSLocal\Contents.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Sample\TDSLocal\Contents\Details.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ExcludeItemFrom>Debug|Release</ExcludeItemFrom>
+    </SitecoreItem>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <Replacement Include="C:\websites\sitecore81\Website\Views\">
+      <TargetPath>.\</TargetPath>
+      <IsFolder>True</IsFolder>
+    </Replacement>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'Release' ">
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="layoutitems.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

@@ -1,0 +1,5 @@
+C:\sree\TDS\TDS81Local\TDSProject1\layoutitems\bin\Debug\layoutitems.dll
+C:\sree\TDS\TDS81Local\TDSProject1\layoutitems\bin\Debug\layoutitems.pdb
+C:\sree\TDS\TDS81Local\TDSProject1\layoutitems\obj\Debug\layoutitems.dll
+C:\sree\TDS\TDS81Local\TDSProject1\layoutitems\obj\Debug\layoutitems.pdb
+C:\sree\TDS\TDS81Local\TDSProject1\layoutitems\obj\Debug\layoutitems.csprojResolveAssemblyReference.cache
